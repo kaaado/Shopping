@@ -1,4 +1,4 @@
-export const BASEURL=`shopping-production.up.railway.app/api`;
+export const BASEURL=`https://shopping-production.up.railway.app/api`;
 
 export const LOGIN=`login`;
 export const REGISTER=`register`;
