@@ -75,7 +75,7 @@ focus.current.focus();
                 />
                 <Form.Label>Password</Form.Label>
               </Form.Group>
-               <div className="fw-bolder text-end mb-2" style={{width:'80%'}}>
+               <div className="fw-bolder text-end mb-2 links">
               <Link to="/register">Register</Link>
               </div>
               <button className='btnn btnn-primary' type="submit">
