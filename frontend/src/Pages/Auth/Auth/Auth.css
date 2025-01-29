@@ -19,6 +19,9 @@
 margin-bottom:25px;
 	color: #0c6ffa;
 }
+.links{
+width: 80%;
+}
 
 .form-custom{
 	margin-bottom: 20px;
@@ -90,6 +93,10 @@ margin-bottom:25px;
 	.form-custom input{
 		width: 100%;
 	}
+.links{
+width: 100%;
+}
+
 
 	h1{
 		text-align: center;
