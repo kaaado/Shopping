@@ -82,7 +82,7 @@ focus.current.focus();
                 Login
               </button>
               <div className="google-btn">
-                <a href={`http://127.0.0.1:8000/login-google`}>
+                <a href={`${BASEURL}/login-google`}>
                   <div className="google-icon-wrapper">
                     <img className="google-icon" src='https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg' alt="sign in with google" />
                   </div>
