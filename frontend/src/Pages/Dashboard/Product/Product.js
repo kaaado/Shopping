@@ -155,7 +155,7 @@ export default function Product() {
     <div key={key} className="border p-2 w-100">
       <div className="d-flex align-items-center justify-content-between rounded">
         <div className="d-flex align-items-center justify-content-start gap-2">
-          <img className="rounded" height={80} width={80} src={img.image} alt={img.name} />
+          <img className="rounded" height={80} width={80} src={'https://shopping-production.up.railway.app'+img.image} alt={img.name} />
         </div>
         <Button variant="danger" onClick={() => handleImgFromServerDel(img.id)}>Delete</Button>
       </div>
