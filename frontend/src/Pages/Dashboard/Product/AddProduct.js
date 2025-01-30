@@ -141,7 +141,7 @@ const imageShow = images.map((img, key) => (
   <div key={key} className="border p-2 w-100">
   <div className="d-flex align-items-center justify-content-between  rounded">
     <div className="d-flex align-items-center justify-content-start gap-2 ">
-      <img className="rounded" height={80} width={80} src={URL.createObjectURL(`https://shopping-production.up.railway.app${img}`)} alt={img.name} />
+      <img className="rounded" height={80} width={80} src={URL.createObjectURL(img)} alt={img.name} />
       <div>
         <p className="mb-1">{img.name}</p>
         <p>{img.size > 1000000 ? (img.size / (1024 * 1024)).toFixed(2) + ' MB' : (img.size / 1024).toFixed(2) + ' KB'}</p>
