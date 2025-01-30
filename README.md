@@ -24,7 +24,6 @@
 
 ### 🔜 Upcoming Features:
 - 🔍 **Search Products & Categories**
-- 📦 **Product Details & Show Page**
 - 👤 **User Profile & Payment Integration**
 - 💬 **Comments & Ratings System**
 - 🚀 **Performance & UI  Enhancements & Adding AI**
