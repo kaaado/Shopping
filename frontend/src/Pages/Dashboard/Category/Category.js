@@ -69,7 +69,7 @@ setImagePreview(data.data.image);
 
         <div className="d-flex flex-row gap-2">
            {imagePreview && ( 
-            <img src={imagePreview} width={80} height={80} alt="Category Preview"  className="rounded-pill fade-in" />
+            <img src={'https://shopping-production.up.railway.app'+imagePreview} width={80} height={80} alt="Category Preview"  className="rounded-pill fade-in" />
           )}
           <Form.Group className="mb-3 w-100" controlId="image">
             <Form.Label>Image</Form.Label>
