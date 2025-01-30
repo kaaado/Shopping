@@ -115,7 +115,7 @@ const { setIsChange } = useContext(Cart);
               alt="product img"
               className="w-100"
               style={{
-                backgroundImage: `url('${img}')`,
+                backgroundImage: `url('https://shopping-production.up.railway.app ${img}')`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 height: "170px",
