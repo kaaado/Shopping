@@ -84,7 +84,7 @@ const categoriesShow = categories.map((category, key) => (
       <div className="d-flex align-items-start gap-2 flex-wrap">
         <div
           
-          style={{ objectFit: "cover",backgroundImage: `url('https://shopping-production.up.railway.app${product.img}')`,height:"80px" ,backgroundPosition: "center",
+          style={{ objectFit: "cover",backgroundImage: `url(`https://shopping-production.up.railway.app${product.img}`)`,height:"80px" ,backgroundPosition: "center",
                 backgroundSize: "cover"}}
           className="rounded col-sm-3 col-12"
           
