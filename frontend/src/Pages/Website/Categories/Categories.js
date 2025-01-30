@@ -20,7 +20,7 @@ useEffect(() => {
   const showCategories = categories.map((item,key) => (
     <div key={key} className="col-lg-2 col-md-6 col-12 bg-transparent border-0">
       <div  className="m-1 bg-white border d-flex align-items-center justify-content-start gap-3 rounded py-2 h-100">
-        <img className="ms-3" width="50px" src={item.image} alt="img" />
+        <img className="ms-3" width="50px" src={"https://shopping-production.up.railway.app"+item.image} alt="img" />
         <p
         
       className="m-0"
