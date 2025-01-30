@@ -75,7 +75,7 @@ export default function SingleProduct() {
           <>
         
         <Col lg={4} md={6} xs={12}>
-          <ImageGallery items={productImages}   useTranslate3D  />
+          <ImageGallery items={'https://shopping-production.up.railway.app'+productImages}   useTranslate3D  />
         </Col>
 
       
