@@ -10,7 +10,7 @@ export default function Landing() {
 
  const getRandomProductId = () => {
   const storedIds = JSON.parse(localStorage.getItem("ids")) || [];
-  if (storedIds.length === 0) return null;
+  if (storedIds.length === 0) return storedIds.push(1);
   const randomIndex = Math.floor(Math.random() * storedIds.length);
   return storedIds[randomIndex];
 };
