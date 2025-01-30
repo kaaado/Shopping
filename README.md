@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Shopping** is a modern e-commerce web application designed to provide a seamless shopping experience. Built with **React (Next.js) for the frontend and Laravel for the backend**, it ensures a smooth user experience with robust API integration and security features.
+**Shopping** is a modern e-commerce web application designed to provide a seamless shopping experience. Built with **React for the frontend and Laravel for the backend**, it ensures a smooth user experience with robust API integration and security features.
 
 ## 🚀 Live Demo
 🔗 **[Visit Shopping Website](https://shopping-sand.vercel.app/)**
