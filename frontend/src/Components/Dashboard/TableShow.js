@@ -123,7 +123,7 @@ const showWhichData = search.length > 0
                 width={40}
                 height={40}
                 alt="Category image"
-                src={"https://shopping-production.up.railway.app" + item[item2.key]} 
+                src={'https://shopping-production.up.railway.app' + item[item2.key]} 
                 className="rounded"
               />
             );
@@ -135,7 +135,7 @@ const showWhichData = search.length > 0
                 width={30}
                 height={30}
                 alt="img"
-                src={"https://shopping-production.up.railway.app" +imgObj.image} 
+                src={'https://shopping-production.up.railway.app' +imgObj.image} 
                 className="rounded"
                 style={{ marginRight: '2px', marginBottom: '2px' }} 
               />
