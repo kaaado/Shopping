@@ -32,9 +32,9 @@
 ## 🛠️ Tech Stack
 
 ### **Frontend:**
-- **Next.js (React)** – Client-side rendering & SSR for fast performance
+- **React.js** – Client-side rendering & SSR for fast performance
 - **Bootstrap CSS** – Responsive and modern UI styling
-- **Redux** – State management
+- **Redux & Hooks** – State management
 
 ### **Backend:**
 - **Laravel** – RESTful API with authentication & business logic
