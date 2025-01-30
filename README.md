@@ -71,7 +71,7 @@
  php artisan serve
 ```
 
-### **Frontend Setup (Next.js):**
+### **Frontend Setup (React.js):**
 ```sh
  cd frontend
  npm install
