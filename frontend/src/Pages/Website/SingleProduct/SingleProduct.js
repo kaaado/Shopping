@@ -20,8 +20,8 @@ export default function SingleProduct() {
     Axios.get(`${PRODUCT}/${id}`).then((res) => {
       setProductImages(
         res.data[0].images.map((img) => ({
-          original: img.image,
-          thumbnail: img.image,
+          original: 'https://shopping-production.up.railway.app'+img.image,
+          thumbnail: 'https://shopping-production.up.railway.app'+img.image,
         }))
       );
       setProduct(res.data[0]);
@@ -75,7 +75,7 @@ export default function SingleProduct() {
           <>
         
         <Col lg={4} md={6} xs={12}>
-          <ImageGallery items={'https://shopping-production.up.railway.app'+productImages}   useTranslate3D  />
+          <ImageGallery items={productImages}   useTranslate3D  />
         </Col>
 
       
